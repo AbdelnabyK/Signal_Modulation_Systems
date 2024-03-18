@@ -1,0 +1,29 @@
+# Voice Signal Processing Project
+
+## Overview
+
+This project focuses on processing a short voice signal recorded on a PC using various signal processing techniques. The objective is to analyze and manipulate the signal to achieve specific outcomes.
+
+## Steps Completed
+
+- **Voice Signal Recording**: A short voice signal, less than 1 minute in duration, was recorded on the PC using a sampling frequency of 48 kHz.
+
+- **Signal Spectrum Plotting**: The spectrum of the recorded signal was plotted to visualize its frequency components.
+
+- **High-Frequency Removal**: Frequencies in the signal spectrum greater than 4 kHz were removed to limit the bandwidth to 4 kHz.
+
+- **Signal Reconstruction**: The modified spectrum was converted back to the time domain to obtain a band-limited signal with a bandwidth of 4 kHz.
+
+- **Error Calculation**: The average error between the original signal and the band-limited signal was calculated to assess signal fidelity. It was ensured that the error was small, indicating minimal distortion in the voice signal.
+
+- **FM Modulation**: The signal was subjected to FM modulation using a 1 MHz carrier frequency. The spectrum after modulation was plotted, employing Narrowband FM (NBFM).
+
+- **Signal Reception**: Differentiation and envelope detection techniques were employed to receive the modulated message, assuming a noise-free environment.
+
+- **Error Analysis**: The error between the received message and the transmitted message was calculated to evaluate the fidelity of the received signal.
+
+- **SNR Variation**: Steps 6-8 were repeated with a Signal-to-Noise Ratio (SNR) of 10 dB to assess the impact of noise on signal reception and fidelity.
+
+## Conclusion
+
+The voice signal processing project successfully implemented various signal processing techniques to manipulate and analyze the recorded voice signal. The outcomes of each step were assessed to ensure the integrity and fidelity of the processed signal. Further optimization and analysis can be performed based on the results obtained.
