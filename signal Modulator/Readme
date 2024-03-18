@@ -1,0 +1,36 @@
+# Signal Generator
+
+This project implements a general signal generator that allows users to define and manipulate signals based on various specifications. The program prompts the user to input parameters such as sampling frequency, time scale, and breakpoints, and then allows them to define the signal characteristics for each region.
+
+## Specifications
+
+1. **Initialization**: 
+   - The program starts by asking the user to input the following parameters:
+     - Sampling frequency of the signal.
+     - Start and end of the time scale.
+     - Number of breakpoints and their positions.
+     - Example: If the signal is defined from -2 to 0 as a DC signal and from 0 to 2 as a ramp, the user will enter that the number of breakpoints is 1 and the position at t=0.
+
+2. **Signal Characteristics**:
+   - Based on the number of breakpoints, the program prompts the user at each region to enter the specifications of the signal, which include:
+     - DC signal: Amplitude.
+     - Ramp signal: Slope and intercept.
+     - General order polynomial: Amplitude, power, and intercept.
+     - Exponential signal: Amplitude and exponent.
+     - Sinusoidal signal: Amplitude, frequency, and phase.
+
+3. **Display**:
+   - The resulting signal in the time domain is displayed.
+
+4. **Signal Manipulation**:
+   - After displaying the signal, the program asks the user if they want to perform any operation on the signal:
+     - Amplitude Scaling: Scale value.
+     - Time reversal.
+     - Time shift: Shift value.
+     - Expanding the signal: Expanding value.
+     - Compressing the signal: Compressing value.
+     - None.
+
+5. **Updated Signal**:
+   - The program displays the new signal in the time domain after applying any chosen operations.
+
