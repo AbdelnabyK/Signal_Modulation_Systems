@@ -1,0 +1,22 @@
+# Random Binary Information Stream Transmission Project
+
+## Description
+
+This project entails generating a random binary information stream and transmitting it using Binary Phase Shift Keying (BPSK) modulation once and Quadrature Phase Shift Keying (QPSK) modulation once. At the receiver side, Additive White Gaussian Noise (AWGN) with a variance of $N_0 / 2$ is added to the information stream.
+
+## Deliverables
+
+The following deliverables should be included in a single PDF file:
+
+1. **Source Codes**: MATLAB (.m) files containing the complete project code, appropriately commented for clarity and understanding.
+
+2. **BPSK Transmitted Constellation**: A figure displaying the constellation of transmitted BPSK symbols.
+
+3. **Noisy BPSK Received Constellation**: A figure illustrating the constellation of received BPSK symbols after the addition of AWGN.
+
+4. **QPSK Transmitted Constellation**: A figure showing the constellation of transmitted QPSK symbols.
+
+5. **Noisy QPSK Received Constellation**: A figure depicting the constellation of received QPSK symbols in the presence of AWGN.
+
+6. **BER (Bit Error Rate) Comparison**: A figure presenting the Bit Error Rates (BERs) of both BPSK and QPSK modulation schemes for comparison.
+
