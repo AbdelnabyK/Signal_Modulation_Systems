@@ -1,0 +1,33 @@
+# Voice Signal Processing Project
+
+## Overview
+
+This project involves processing a short voice signal recorded on a PC, with the following steps:
+
+1. **Recording Voice Signal**: Record a short voice signal on your PC, with a duration of less than 1 minute, using a sampling frequency of 48 kHz.
+
+2. **Plot Signal Spectrum**: Plot the spectrum of the recorded voice signal.
+
+3. **Band Limitation**: Delete all frequencies in the spectrum that exceed 4 kHz.
+
+4. **Return to Time Domain**: Convert the filtered signal back to the time domain, resulting in a band-limited signal with a bandwidth of 4 kHz.
+
+5. **Error Calculation**: Calculate the average error between the original voice signal and the band-limited signal. The error is defined as the average squared difference between corresponding samples of the two signals.
+
+6. **AM Modulation**: Modulate the band-limited signal using Amplitude Modulation (AM) with a carrier frequency of 1 MHz. Plot the spectrum of the modulated signal.
+
+7. **Envelope Detection**: Receive the modulated signal using an envelope detector. Assume no noise in the reception process.
+
+8. **Error Analysis**: Calculate the error between the received message and the transmitted message. Play back the received signal.
+
+9. **SNR Variation**: Repeat steps 6-8 with a Signal-to-Noise Ratio (SNR) of 10 dB.
+
+## Deliverables
+
+The deliverables for this project include:
+
+1. MATLAB source code files (.m) for implementing each step of the processing.
+2. Figures illustrating the spectrum of the original voice signal, the band-limited signal, and the modulated signal.
+3. Results of error calculations between the original and processed signals.
+4. Analysis of the performance variation with different SNR levels.
+
