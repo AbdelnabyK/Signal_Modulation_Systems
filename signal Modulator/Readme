@@ -34,11 +34,3 @@ This project implements a general signal generator that allows users to define a
 5. **Updated Signal**:
    - The program displays the new signal in the time domain after applying any chosen operations.
 
-## Usage
-To use this program, simply run the executable and follow the prompts to define and manipulate signals as desired.
-
-## Contributions
-Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests with any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
